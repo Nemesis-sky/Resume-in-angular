@@ -1,0 +1,9 @@
+<div class="skills">
+<span class="sub-headings">SKILLS</span>
+<ul class="skill-list">
+    <li *ngFor="let skill of skills">{{skill.skillname}}
+      <div class="range-container"><div class="{{checkLevel(skill.level)}}"></div></div>
+        <li>
+</ul>
+</div>
+<hr>

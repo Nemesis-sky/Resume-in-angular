@@ -1,0 +1,13 @@
+.hobbies{
+    margin-top: 8px;
+}
+.hobby-list{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.sub-headings{
+    color: rgb(8, 124, 163);
+}
+

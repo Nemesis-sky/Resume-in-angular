@@ -1,0 +1,22 @@
+.header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profilephoto{
+    margin-top: 10px;
+    height: 140px;
+    width: 160px;
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+}
+.icons{
+color: rgb(30, 174, 230);
+}
+.info-list li{
+    margin: 8px;
+}
+.heading{
+    margin-bottom: 10px;
+}

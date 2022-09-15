@@ -1,0 +1,20 @@
+.projects{
+    margin-bottom: 20px;
+}
+.sub-headings{
+    color: rgb(7, 132, 174);
+}
+.project-list{
+    font-size: medium;
+    font-weight: 600;
+}
+.project-list li{
+    margin-bottom: 5px;
+}
+.pro-des{
+    font-weight: 400;
+}
+a{
+    color: rgb(8, 151, 212);
+    font-size: small;
+}

@@ -1,0 +1,25 @@
+<div class="header">
+<!-- profile photo -->
+<div class="photo">
+  <img class="profilephoto" src="./assets/images/myphoto.jpg" alt="">
+</div>
+<!-- heading line -->
+<div class="heading">
+  <h2>{{contact.name}} </h2>
+  <h3>{{contact.title | uppercase}}</h3>
+</div>
+<hr>
+</div>
+<!-- contact details like email phone -->
+<div class="contact-info">
+  <span class="sub-headings">CONTACT INFO</span>
+  <ul class="info-list">
+    <li><fa-icon class="icons" [icon]="faLocationDot"></fa-icon> {{contact.address}}</li>
+    <li><a href="mailto:{{contact.emailId}}"><fa-icon class="icons" [icon]="faEnvelope"></fa-icon> {{contact.emailId}}</a></li>
+    <li><a href="tel:{{contact.phone}}"><fa-icon class="icons" [icon]="faPhone"></fa-icon> {{contact.phone}}</a></li>
+    <li><fa-icon class="icons" [icon]="faCalendarDays"></fa-icon> {{contact.dob}}</li>
+    <li><a href="https://github.com/Nemesis-sky" target="_blank"><fa-icon class="icons" [icon]="faGithubSquare"></fa-icon> {{contact.github}}</a></li>
+    <li><a href="https://www.linkedin.com/in/akash-murhe-bb02b1234" target="_blank"><fa-icon class="icons" [icon]="faLinkedin"></fa-icon> {{contact.linkdin}}</a></li>
+  </ul>
+</div>
+

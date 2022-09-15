@@ -1,0 +1,8 @@
+<span class="sub-headings">CERTIFICATES</span>
+<ul class="cer-list">
+  <li *ngFor="let cer of certificates">
+    <div>
+      <p>{{cer.certificatename}} <a href={{cer.link}}><fa-icon [icon]="faLink"></fa-icon></a></p>
+    </div>
+  </li>
+</ul>

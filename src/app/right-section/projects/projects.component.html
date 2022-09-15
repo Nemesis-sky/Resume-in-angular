@@ -1,0 +1,12 @@
+<div class="projects">
+<span class="sub-headings">PROJECTS</span>
+<div>
+    <ul class="project-list">
+        <li *ngFor="let projects of projects">
+            {{projects.projectname}} <a href={{projects.link}} target="_blank"><fa-icon [icon]="link"></fa-icon></a>
+            <p class="pro-des">{{projects.description}}</p>
+        </li>
+    </ul>
+</div>
+</div>
+<hr>
